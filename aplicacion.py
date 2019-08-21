@@ -66,6 +66,7 @@ for i in range (0,100):
 print(lista_pares)
 
 for elmento in lista_pares:
+
     if (elmento % 3 == 0):
         lista_pares.remove(elmento)
 print(lista_pares)
